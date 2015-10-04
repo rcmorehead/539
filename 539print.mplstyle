@@ -1,0 +1,21 @@
+###My modified version of Cam Davidson-Pilon's fivethirtyeight matplotlib style sheet
+
+###This is for converting 539 to print format (white facecolor etc.). You should call 539 
+###first then this one.
+###Example:
+### plt.style.use(['<path>/539.mplstyle', '<path>/539print.mplstyle'])
+
+
+#axes  
+axes.facecolor: ffffff
+
+
+#figure
+figure.facecolor: ffffff
+
+#savefig
+savefig.edgecolor: ffffff
+savefig.facecolor: ffffff
+
+#patch
+patch.edgecolor: ffffff
